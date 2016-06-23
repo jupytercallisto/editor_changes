@@ -31,7 +31,7 @@ function activateAbout(app: Application): void {
   console.log("~" + widget.node.classList + "~");
   console.log("!" + widget.node.outerHTML + "!");
 
-  widget.node.innerHTML = `<iframe src="http://nbviewer.jupyter.org/github/jupyter/notebook/blob/master/docs/source/examples/Notebook/Notebook Basics.ipynb" style="height: 100%; width: 100%;"></iframe>`;
+  widget.node.innerHTML = `<iframe src="https://eskirk.github.io/plugins/" style="height: 100%; width: 100%;"></iframe>`;
   widget.node.style.overflowY = 'auto';
   app.commands.add([{
     id: commandId,
