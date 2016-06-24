@@ -28,7 +28,7 @@ function activateAbout(app: Application): void {
   widget.title.closable = true;
   widget.addClass('fullPage-about-class');
 
-  widget.node.innerHTML = `<iframe src="http://eskirk.github.io/plugins/" style="height: 100%; width: 100%; frameborder="0";></iframe>`;
+  widget.node.innerHTML = `<iframe src="http://eskirk.github.io/plugins/" style="height: 100%; width: 100%; border: 0;"></iframe>`;
   widget.node.style.overflowY = 'auto';
   app.commands.add([{
     id: commandId,
